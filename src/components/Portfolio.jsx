@@ -1,6 +1,6 @@
 import React from 'react'
 import moneytoring from '../assets/portfolio/moneytoring.png'
-import griyapets from '../assets/portfolio/griyapets.png'
+import petcare from '../assets/portfolio/petcare.png'
 import bpbd from '../assets/portfolio/bpbd.png'
 
 const Portfolio = () => {
@@ -14,15 +14,16 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            title: 'Project UI/UX Aplikasi Petcare "Griyapets"',
-            src: griyapets,
-            href: 'https://docs.google.com/presentation/d/1wyZvNQUA0ORuYrhdXEFgLK5lKdwL-CWAPysi--hYMXo/edit#slide=id.g174caa8877a_0_52'
+            title: 'Website resmi dan pusat informasi BPBD Kota Surabaya',
+            src: bpbd,
+            href: 'https://github.com/ArloDel/bpbd_surabaya'
+            
         },
         {
             id: 3,
-            title: 'Website BPBD Kota Surabaya',
-            src: bpbd,
-            href: 'https://github.com/ArloDel/bpbd_surabaya'
+            title: 'Aplikasi Marketplace Perawatan Hewan Online Berbasis Web "Griyapets"',
+            src: petcare,
+            href: 'https://github.com/RafiWithNZ/petcare-app'
         },
     ]
 
